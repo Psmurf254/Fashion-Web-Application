@@ -1,0 +1,238 @@
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  text-decoration: none;
+  transition: 1s;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  outline: none;
+  scroll-behavior: smooth;
+}
+.Navbar{
+  justify-content: space-between;
+  padding: 5px 40px;
+ 
+}
+
+.NavLinks li {
+  color: #fff;
+  text-transform: capitalize;
+  font-size: medium;
+  letter-spacing: 1px;
+  font-weight: 600;
+  padding: 12px;
+  cursor: pointer;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  transition: 0.5s;
+}
+
+.NavLinks .active {
+  border-bottom: 1px solid red;
+  padding: 12px 0;
+}
+
+.NavLinks li:hover {
+  color: red;
+}
+.floatingLinks{
+  top: 10%;
+}
+
+body {
+  min-height: 100vh;
+}
+
+.slick-slide > div {
+  margin: 0 5px;
+}
+
+section {
+  padding: 50px;
+  margin-top: 5%;
+}
+
+@media (max-width: 768px) {
+  section {
+    padding: 20px;
+    margin-top: 5%;
+  }
+}
+
+
+.header::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: rgba(26, 25, 25, 0.5);
+}
+
+
+.LgHeader::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(26, 25, 25, 0.1);
+    z-index: 99;
+  }
+
+.header{
+  position: relative;
+  min-height: 50vh;
+}
+
+.HeroText {
+  position: absolute;
+  top: 15%;
+  padding: 12px 18px;
+  text-align: center;
+  width: 100%;
+
+  
+}
+
+.herobtn {
+  text-align: center;
+  font-weight: "600";
+  color: #fff;
+  padding: 12px 24px;
+  border: 1px solid;
+  border-radius: 5px;
+  background-color: black;
+  text-transform: uppercase;
+  margin-top: 17px;
+  width: 50%;
+  outline: none;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.herobtn:hover {
+  background-color: transparent;
+}
+
+.Heading::after {
+  content: "";
+  position: absolute;
+  width: 45px;
+  height: 2px;
+  background-color: #000;
+  margin-top: 15px;
+  margin-left: 3px;
+}
+
+@media (max-width: 768px) {
+  .NavLinks {
+    flex-direction: column;
+    gap: 10px;
+    position: absolute;
+    background-color: #000;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    min-height: 100vh;
+    
+  }
+.NavLinks li{
+  padding: 3rem 1rem;
+
+}
+
+ 
+
+  
+
+  .Heading::before {
+    content: "";
+    position: absolute;
+    width: 45px;
+    height: 2px;
+    background-color: red;
+    margin-top: 30px;
+    margin-left: 0;
+  }
+  .Heading::after {
+    display: none;
+  }
+}
+
+.category-btn {
+  font-weight: bold !important;
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  background: transparent;
+  outline: none;
+  border: none;
+  text-align: center;
+  padding: 7px 24px;
+  margin: 14px;
+  border-radius: 5px;
+  font-size: medium;
+  transition: all 0.3s ease;
+  opacity: 0.7;
+}
+
+.typing-animation {
+  overflow: hidden;
+  border-right: 0.15em solid orange;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: 0.15em;
+  animation: typing 1.25s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: orange;
+  }
+}
+
+.FashionCard {
+  max-width: 45%;
+}
+.OverviewCard {
+  transition: all 0.3s ease;
+}
+
+.OverviewCard:hover {
+  transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+  .FashionCardImg {
+    height: auto;
+  }
+}
+
+.footer{
+  margin-top: 10%;
+}
+
+/* heading */
+
