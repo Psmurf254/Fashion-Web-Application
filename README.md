@@ -16,23 +16,36 @@ Install dependencies: pip install -r requirements.txt.
 Apply database migrations: python manage.py migrate.
 Create a superuser: python manage.py createsuperuser.
 Start the Django server: python manage.py runserver.
-3. Usage
+
+
+4. Usage
 Upon successful installation, users can access the Fashion Fusion homepage. From there, they can navigate to various sections such as:
 
 Fashion Showcase: Where creators can showcase their fashion items.
+
 Creator Profiles: Profiles of fashion creators, including links to social media, physical locations, and contact information.
+
 Dashboard: Management operations for creators, accessible upon creating an account.
+
+
 Creator Workflow
+
 Create an account: New users will be directed to create an account.
 Dashboard: After logging in, creators are redirected to their dashboard, where they can manage their fashion items.
 Add Fashion: Creators can add new fashion items, which will be showcased in the Fashion section.
 Engage with Users: Creators can interact with users through likes, comments, reviews, and follows. They can also share their fashion items to external sources.
+
+
 User Workflow
+
 Explore Fashion: Users can browse through the fashion showcase, view items, and engage with creators.
 Interaction: Users can like, comment, review, and follow both fashion items and creators.
 Notifications: Users receive notifications when a creator they follow uploads a new item.
 Favorites: Users can add fashion items to their favorites for easy access.
+
+
 4. Technologies Used
+   
 Python
 Django
 React Redux
@@ -40,20 +53,22 @@ Material UI
 HTML/CSS/JavaScript
 Django Rest Framework
 External APIs (for additional functionality)
-5. Admin Features
+
+
+6. Admin Features
 The Django admin interface allows superusers to perform administrative tasks such as managing users, fashion items, and site settings.
 
-6. Limitations
+7. Limitations
 Fashion Fusion currently does not support e-commerce features. Live chat functionality will be included in a future upgrade.
 
-7. Acknowledgments
+8. Acknowledgments
 Fashion Fusion extends its appreciation to Psmurf254, a software developer, for their contributions to the project.
 
-8. Troubleshooting
+9. Troubleshooting
 For any issues or troubleshooting assistance, please refer to the project's GitHub repository or reach out to the project maintainers.
 
-9. Contributing and Credits
+10. Contributing and Credits
 Contributions to Fashion Fusion are welcome! Please follow the project's contribution guidelines outlined in the repository. Credits to all contributors can be found in the project's acknowledgments section.
 
-10. Additional Information
+11. Additional Information
 For more information or inquiries about Fashion Fusion, please refer to the project's documentation or contact the project maintainers.
