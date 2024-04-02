@@ -3,19 +3,20 @@ Fashion Fusion Project Documentation
 Fashion Fusion is a web application designed to serve as a hub for fashion enthusiasts and creators. It aims to bridge the gap between fashionistas and fashion enthusiasts by providing a platform where creators can showcase their work and users can discover, engage with, and appreciate fashion content.
 
 2. Installation
-Frontend (React)
-Clone the Fashion Fusion repository from GitHub: git clone https://github.com/your-username/fashion-fusion.git.
-Navigate to the frontend directory: cd fashion-fusion/frontend.
-Install dependencies: npm install.
-Start the development server: npm start.
 Backend (Django)
-Clone the Fashion Fusion repository from GitHub: git clone https://github.com/your-username/fashion-fusion.git.
+Clone the Fashion Fusion repository from GitHub: git clone  https://github.com/Psmurf254/Fashion-Web-Application.git.
 Navigate to the backend directory: cd fashion-fusion/backend.
 Create and activate a virtual environment: python3 -m venv venv and source venv/bin/activate.
 Install dependencies: pip install -r requirements.txt.
 Apply database migrations: python manage.py migrate.
 Create a superuser: python manage.py createsuperuser.
 Start the Django server: python manage.py runserver.
+
+Frontend (React)
+Navigate to the frontend directory: cd fashion-fusion/frontend.
+Install dependencies: npm install.
+Start the development server: npm start.
+
 
 
 4. Usage
