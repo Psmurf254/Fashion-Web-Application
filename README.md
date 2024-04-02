@@ -4,6 +4,7 @@ Fashion Fusion is a web application designed to serve as a hub for fashion enthu
 
 2. Installation
 Backend (Django)
+
 Clone the Fashion Fusion repository from GitHub: git clone  https://github.com/Psmurf254/Fashion-Web-Application.git.
 Navigate to the backend directory: cd fashion-fusion/backend.
 Create and activate a virtual environment: python3 -m venv venv and source venv/bin/activate.
